@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T17:38:51.396Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="D5k5VAb2wYDqGssQNdfG" version="13.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-10T17:44:41.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="1Uf3c2-zVzHgL5PAvr-j" version="13.8.7" type="github">
   <diagram id="juzcoO5aMXoIAjG5bAuT" name="Page-1">
-    <mxGraphModel dx="728" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="728" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,12 +169,6 @@
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="-4" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="K4UiaTiZzuQG-6o3cde9-42" value="VpcWebJson" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="440" width="170" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="K4UiaTiZzuQG-6o3cde9-43" value="+ network: VpcEntity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="K4UiaTiZzuQG-6o3cde9-42" vertex="1">
-          <mxGeometry y="26" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="K4UiaTiZzuQG-6o3cde9-47" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CustomerResource&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="20" width="140" height="30" as="geometry" />
