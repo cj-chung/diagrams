@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T22:37:10.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="xfOQd0xR6dfmiErXf0Zb" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T22:54:49.206Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="V5pLkFPRP2BtEn4fL752" version="13.9.3" type="github">
   <diagram id="9fnl1yyOtG8HGjEEbUFA" name="Page-1">
     <mxGraphModel dx="869" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -484,7 +484,7 @@
           <mxGeometry y="126" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BEwBUcMwAN_doqcmrtSP-136" value="&lt;&lt;enumeration&gt;&gt;&#xa;VifType" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1600" width="250" height="178" as="geometry" />
+          <mxGeometry x="110" y="1600" width="250" height="256" as="geometry" />
         </mxCell>
         <mxCell id="BEwBUcMwAN_doqcmrtSP-137" value="OVS(&quot;ovs&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-136">
           <mxGeometry y="40" width="250" height="26" as="geometry" />
@@ -498,11 +498,44 @@
         <mxCell id="BEwBUcMwAN_doqcmrtSP-142" value="HOSTDEV_PHYSICAL(&quot;hostdev_physical&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-136">
           <mxGeometry y="118" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BEwBUcMwAN_doqcmrtSP-140" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-136">
-          <mxGeometry y="144" width="250" height="8" as="geometry" />
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-143" value="VHOSTUSER(&quot;vhostuser&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-136">
+          <mxGeometry y="144" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="BEwBUcMwAN_doqcmrtSP-141" value="+ ipAllocation: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-136">
-          <mxGeometry y="152" width="250" height="26" as="geometry" />
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-144" value="DISTRIBUTED(&quot;distributed&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-136">
+          <mxGeometry y="170" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-145" value="OTHER(&quot;other&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-136">
+          <mxGeometry y="196" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-140" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-136">
+          <mxGeometry y="222" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-141" value="+ vifType: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-136">
+          <mxGeometry y="230" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-146" value="&lt;&lt;enumeration&gt;&gt;&#xa;VnicType" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1600" width="250" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-147" value="NORMAL(&quot;normal&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-146">
+          <mxGeometry y="40" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-148" value="MACVTAP(&quot;macvtap&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-146">
+          <mxGeometry y="66" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-149" value="DIRECT(&quot;direct&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-146">
+          <mxGeometry y="92" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-150" value="BAREMETAL(&quot;baremetal&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-146">
+          <mxGeometry y="118" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-151" value="DIRECTPHYSICAL(&quot;directphysical&quot;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-146">
+          <mxGeometry y="144" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-154" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-146">
+          <mxGeometry y="170" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="BEwBUcMwAN_doqcmrtSP-155" value="+ vnicType: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEwBUcMwAN_doqcmrtSP-146">
+          <mxGeometry y="178" width="250" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
