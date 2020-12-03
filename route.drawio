@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T18:56:14.422Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="s-8sRassx2-Q9WdVccGA" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-03T19:40:11.985Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="gez_fkHat2kXNbjCHAGu" version="13.10.6" type="github">
   <diagram id="DPUrBqZssIUUh1KCcO0Q" name="Page-1">
     <mxGraphModel dx="739" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -956,7 +956,7 @@
           <mxGeometry y="92" width="160" height="22" as="geometry" />
         </mxCell>
         <mxCell id="Ilx6_ivtB0a4suYtrnis-153" value="InternalRouterInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1340" width="250" height="70" as="geometry">
+          <mxGeometry x="83" y="1420" width="250" height="70" as="geometry">
             <mxRectangle x="290" y="120" width="80" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -967,7 +967,7 @@
           <mxGeometry y="48" width="250" height="22" as="geometry" />
         </mxCell>
         <mxCell id="Ilx6_ivtB0a4suYtrnis-158" value="InternalRouterConfiguration" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1450" width="330" height="180" as="geometry">
+          <mxGeometry x="383.5" y="1420" width="330" height="180" as="geometry">
             <mxRectangle x="290" y="120" width="80" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -991,6 +991,179 @@
         </mxCell>
         <mxCell id="Ilx6_ivtB0a4suYtrnis-160" value="+ subnet_routing_tables: List&lt;InternalSubnetRoutingTable&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-158">
           <mxGeometry y="158" width="330" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-166" value="InternalSubnetRoutingTable" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1580" width="250" height="70" as="geometry">
+            <mxRectangle x="290" y="120" width="80" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-167" value="+ subnet_id: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-166">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-168" value="+ routing_rules: List&lt;InternalRoutingRule&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-166">
+          <mxGeometry y="48" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-169" value="InternalRoutingRule" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="383.5" y="1690" width="310" height="158" as="geometry">
+            <mxRectangle x="290" y="120" width="80" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-170" value="+ id: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-169">
+          <mxGeometry y="26" width="310" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-172" value="+ name: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-169">
+          <mxGeometry y="48" width="310" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-173" value="+ destination: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-169">
+          <mxGeometry y="70" width="310" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-174" value="+ next_hop_ip: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-169">
+          <mxGeometry y="92" width="310" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-175" value="+ operation_type: OperationType&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-169">
+          <mxGeometry y="114" width="310" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-171" value="+ routing_rule_extra_info: InternalRoutingRuleExtraInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-169">
+          <mxGeometry y="136" width="310" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-176" value="InternalRoutingRuleExtraInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1810" width="210" height="70" as="geometry">
+            <mxRectangle x="290" y="120" width="80" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-177" value="+ next_hop_mac: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-176">
+          <mxGeometry y="26" width="210" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-178" value="+ destination_type: VpcRouteTarget" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-176">
+          <mxGeometry y="48" width="210" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-179" value="UpdateRoutingRuleResponse" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1580" width="330" height="70" as="geometry">
+            <mxRectangle x="290" y="120" width="80" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-180" value="+ internalSubnetRoutingTable: InternalSubnetRoutingTable&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-179">
+          <mxGeometry y="26" width="330" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-181" value="+ hostRouteToSubnet: List&lt;HostRoute&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-179">
+          <mxGeometry y="48" width="330" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-182" value="ConnectedSubnetsWebResponse" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="83" y="1280" width="250" height="70" as="geometry">
+            <mxRectangle x="290" y="120" width="80" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-183" value="+ internal_router_info: InternalRouterInfo&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-182">
+          <mxGeometry y="26" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-184" value="+ subnets: List&lt;SubnetEntity&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-182">
+          <mxGeometry y="48" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-185" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ilx6_ivtB0a4suYtrnis-155" target="Ilx6_ivtB0a4suYtrnis-161">
+          <mxGeometry x="0.5" y="41" relative="1" as="geometry">
+            <mxPoint x="330" y="1480" as="sourcePoint" />
+            <mxPoint x="365" y="1480" as="targetPoint" />
+            <mxPoint x="-40" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-186" value="1" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-185">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-187" value="1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-185">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-188" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ilx6_ivtB0a4suYtrnis-183" target="Ilx6_ivtB0a4suYtrnis-153">
+          <mxGeometry x="0.5" y="41" relative="1" as="geometry">
+            <mxPoint x="100.5" y="1360" as="sourcePoint" />
+            <mxPoint x="50" y="1440" as="targetPoint" />
+            <mxPoint x="-40" y="32" as="offset" />
+            <Array as="points">
+              <mxPoint x="50" y="1317" />
+              <mxPoint x="50" y="1438" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-189" value="1" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-188">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-190" value="1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-188">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-13.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-191" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;elbow=vertical;entryX=0.004;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Ilx6_ivtB0a4suYtrnis-166">
+          <mxGeometry x="0.5" y="41" relative="1" as="geometry">
+            <mxPoint x="714" y="1590" as="sourcePoint" />
+            <mxPoint x="764" y="1590" as="targetPoint" />
+            <mxPoint x="-40" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-192" value="1" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-191">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-193" value="*" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-191">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-194" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ilx6_ivtB0a4suYtrnis-168" target="Ilx6_ivtB0a4suYtrnis-169">
+          <mxGeometry x="0.5" y="41" relative="1" as="geometry">
+            <mxPoint x="647.75" y="1660" as="sourcePoint" />
+            <mxPoint x="698.25" y="1660" as="targetPoint" />
+            <mxPoint x="-40" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-195" value="1" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-194">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-196" value="*" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-194">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-197" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;elbow=vertical;" edge="1" parent="1" source="Ilx6_ivtB0a4suYtrnis-171">
+          <mxGeometry x="0.5" y="41" relative="1" as="geometry">
+            <mxPoint x="692.5" y="1840" as="sourcePoint" />
+            <mxPoint x="770" y="1835" as="targetPoint" />
+            <mxPoint x="-40" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-198" value="1" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-197">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-199" value="1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-197">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-200" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;elbow=vertical;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ilx6_ivtB0a4suYtrnis-180" target="Ilx6_ivtB0a4suYtrnis-167">
+          <mxGeometry x="0.5" y="41" relative="1" as="geometry">
+            <mxPoint x="1010" y="1710" as="sourcePoint" />
+            <mxPoint x="1060.5" y="1710" as="targetPoint" />
+            <mxPoint x="-40" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-201" value="1" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-200">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-202" value="1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-200">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
