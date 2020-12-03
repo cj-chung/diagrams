@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T17:52:46.111Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="WdVEsnksaUuanxiJyGjy" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-03T18:23:49.040Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="BrHeXohck_kEm2oRIZ6e" version="13.10.6" type="github">
   <diagram id="DPUrBqZssIUUh1KCcO0Q" name="Page-1">
     <mxGraphModel dx="739" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -647,6 +647,96 @@
         <mxCell id="Ilx6_ivtB0a4suYtrnis-66" value="1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-64">
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="16" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-67" value="RouteEntity" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="820" width="200" height="136" as="geometry">
+            <mxRectangle x="290" y="120" width="80" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-68" value="+ destination: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-67">
+          <mxGeometry y="26" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-69" value="+ target: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-67">
+          <mxGeometry y="48" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-70" value="+ priority: Integer&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-67">
+          <mxGeometry y="70" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-71" value="+ associatedType: RouteTableType&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-67">
+          <mxGeometry y="92" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-73" value="+ associatedTableId: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-67">
+          <mxGeometry y="114" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-76" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ilx6_ivtB0a4suYtrnis-67" target="Ilx6_ivtB0a4suYtrnis-77">
+          <mxGeometry x="-0.2" width="160" relative="1" as="geometry">
+            <mxPoint x="913.5" y="750" as="sourcePoint" />
+            <mxPoint x="1018.5" y="760" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-77" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CustomerResource&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="740" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-80" value="RouteWebJson" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="794" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-81" value="+ route: RouteEntity" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-80">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-82" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="Ilx6_ivtB0a4suYtrnis-81">
+          <mxGeometry x="0.5" y="41" relative="1" as="geometry">
+            <mxPoint x="830" y="874" as="sourcePoint" />
+            <mxPoint x="960" y="833" as="targetPoint" />
+            <mxPoint x="-40" y="32" as="offset" />
+            <Array as="points">
+              <mxPoint x="930" y="833" />
+              <mxPoint x="920" y="854" />
+              <mxPoint x="940" y="833" />
+              <mxPoint x="930" y="813" />
+              <mxPoint x="950" y="759" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-83" value="1" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-82">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-84" value="1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-82">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-85" value="RoutesWebJson" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="868" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-86" value="+ routes: List&lt;RouteEntity&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-85">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-89" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry x="0.5" y="41" relative="1" as="geometry">
+            <mxPoint x="920" y="904.5" as="sourcePoint" />
+            <mxPoint x="960" y="904.5" as="targetPoint" />
+            <mxPoint x="-40" y="32" as="offset" />
+            <Array as="points">
+              <mxPoint x="930" y="904.5" />
+              <mxPoint x="920" y="925.5" />
+              <mxPoint x="940" y="904.5" />
+              <mxPoint x="930" y="884.5" />
+              <mxPoint x="950" y="830.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-90" value="1" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-89">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ilx6_ivtB0a4suYtrnis-91" value="*" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="Ilx6_ivtB0a4suYtrnis-89">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
