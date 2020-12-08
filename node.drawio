@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T18:03:45.028Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="0xFIgh6EGGFpcwW1Msan" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T18:46:41.534Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="C4GiHsM3y2hwcZj8E90T" version="13.11.0" type="github">
   <diagram id="7jQJBMvR5SGXMKJPSkD0" name="Page-1">
     <mxGraphModel dx="739" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="USKarSAX8TNDrIxT8NqQ-1" value="NodeInfo" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="190" width="140" height="208" as="geometry" />
+          <mxGeometry x="380" y="180" width="140" height="208" as="geometry" />
         </mxCell>
         <mxCell id="USKarSAX8TNDrIxT8NqQ-2" value="+ node_id: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -29,31 +29,31 @@
           <mxGeometry y="182" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="USKarSAX8TNDrIxT8NqQ-9" value="&lt;i&gt;«interface»&lt;br&gt;&lt;b&gt;Serializable&lt;/b&gt;&lt;/i&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="204" width="110" height="50" as="geometry" />
+          <mxGeometry x="595" y="194" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="USKarSAX8TNDrIxT8NqQ-10" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="USKarSAX8TNDrIxT8NqQ-2" target="USKarSAX8TNDrIxT8NqQ-9">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="390" y="200" as="sourcePoint" />
-            <mxPoint x="550" y="200" as="targetPoint" />
+            <mxPoint x="515" y="190" as="sourcePoint" />
+            <mxPoint x="675" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="USKarSAX8TNDrIxT8NqQ-12" value="NodeInfoJson" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="190" width="140" height="52" as="geometry" />
+          <mxGeometry x="175" y="180" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="USKarSAX8TNDrIxT8NqQ-13" value="+ host_info: NodeInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-12">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="USKarSAX8TNDrIxT8NqQ-14" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="USKarSAX8TNDrIxT8NqQ-13" target="USKarSAX8TNDrIxT8NqQ-2">
           <mxGeometry x="0.5" y="41" relative="1" as="geometry">
-            <mxPoint x="120" y="270" as="sourcePoint" />
-            <mxPoint x="260" y="229" as="targetPoint" />
+            <mxPoint x="245" y="260" as="sourcePoint" />
+            <mxPoint x="385" y="219" as="targetPoint" />
             <mxPoint x="-40" y="32" as="offset" />
             <Array as="points">
-              <mxPoint x="220" y="229" />
-              <mxPoint x="210" y="250" />
-              <mxPoint x="230" y="229" />
-              <mxPoint x="220" y="209" />
-              <mxPoint x="240" y="155" />
+              <mxPoint x="345" y="219" />
+              <mxPoint x="335" y="240" />
+              <mxPoint x="355" y="219" />
+              <mxPoint x="345" y="199" />
+              <mxPoint x="365" y="145" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -68,22 +68,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="USKarSAX8TNDrIxT8NqQ-21" value="BulkNodeInfoJson" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="268" width="170" height="52" as="geometry" />
+          <mxGeometry x="145" y="258" width="170" height="52" as="geometry" />
         </mxCell>
         <mxCell id="USKarSAX8TNDrIxT8NqQ-22" value="+ host_infos: List&lt;NodeInfo&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-21">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="USKarSAX8TNDrIxT8NqQ-23" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="USKarSAX8TNDrIxT8NqQ-22" target="USKarSAX8TNDrIxT8NqQ-5">
           <mxGeometry x="0.5" y="41" relative="1" as="geometry">
-            <mxPoint x="120" y="348" as="sourcePoint" />
-            <mxPoint x="250" y="307" as="targetPoint" />
+            <mxPoint x="245" y="338" as="sourcePoint" />
+            <mxPoint x="375" y="297" as="targetPoint" />
             <mxPoint x="-40" y="32" as="offset" />
             <Array as="points">
-              <mxPoint x="220" y="307" />
-              <mxPoint x="210" y="328" />
-              <mxPoint x="230" y="307" />
-              <mxPoint x="220" y="287" />
-              <mxPoint x="240" y="233" />
+              <mxPoint x="345" y="297" />
+              <mxPoint x="335" y="318" />
+              <mxPoint x="355" y="297" />
+              <mxPoint x="345" y="277" />
+              <mxPoint x="365" y="223" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -98,22 +98,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="USKarSAX8TNDrIxT8NqQ-26" value="NodeWebJson" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="330" width="170" height="52" as="geometry" />
+          <mxGeometry x="145" y="336" width="170" height="52" as="geometry" />
         </mxCell>
         <mxCell id="USKarSAX8TNDrIxT8NqQ-27" value="+ nodeInfos: List&lt;NodeInfo&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-26">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="USKarSAX8TNDrIxT8NqQ-28" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="USKarSAX8TNDrIxT8NqQ-27">
+        <mxCell id="USKarSAX8TNDrIxT8NqQ-28" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="USKarSAX8TNDrIxT8NqQ-27" target="USKarSAX8TNDrIxT8NqQ-8">
           <mxGeometry x="0.5" y="41" relative="1" as="geometry">
-            <mxPoint x="120" y="410" as="sourcePoint" />
-            <mxPoint x="250" y="369" as="targetPoint" />
+            <mxPoint x="245" y="416" as="sourcePoint" />
+            <mxPoint x="375" y="375" as="targetPoint" />
             <mxPoint x="-40" y="32" as="offset" />
             <Array as="points">
-              <mxPoint x="220" y="369" />
-              <mxPoint x="210" y="390" />
-              <mxPoint x="230" y="369" />
-              <mxPoint x="220" y="349" />
-              <mxPoint x="240" y="295" />
+              <mxPoint x="345" y="375" />
+              <mxPoint x="335" y="396" />
+              <mxPoint x="355" y="375" />
+              <mxPoint x="345" y="355" />
+              <mxPoint x="365" y="301" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -126,6 +126,33 @@
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="-4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="USKarSAX8TNDrIxT8NqQ-31" value="NodeManagerConstant" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="446" width="350" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="USKarSAX8TNDrIxT8NqQ-32" value="+ NODE_INFO_FILE: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-31">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="USKarSAX8TNDrIxT8NqQ-33" value="+ NODE_INFO_REPOSITORY: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-31">
+          <mxGeometry y="52" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="USKarSAX8TNDrIxT8NqQ-34" value="+ GRPC_SERVER_PORT: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-31">
+          <mxGeometry y="78" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="USKarSAX8TNDrIxT8NqQ-35" value="+ NODE_EXCEPTION_PARAMETER_NULL_EMPTY: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-31">
+          <mxGeometry y="104" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="USKarSAX8TNDrIxT8NqQ-36" value="+ NODE_EXCEPTION_NODE_IP_INVALID: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-31">
+          <mxGeometry y="130" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="USKarSAX8TNDrIxT8NqQ-37" value="+ NODE_EXCEPTION_NODE_NOT_EXISTING: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-31">
+          <mxGeometry y="156" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="USKarSAX8TNDrIxT8NqQ-38" value="+ NODE_EXCEPTION_NODE_ALREADY_EXISTING: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-31">
+          <mxGeometry y="182" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="USKarSAX8TNDrIxT8NqQ-39" value="+ NODE_EXCEPTION_FILE_EMPTY: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="USKarSAX8TNDrIxT8NqQ-31">
+          <mxGeometry y="208" width="350" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
